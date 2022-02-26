@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title> Descuentos | Curso Javascript </title>
+</head>
+<body>
+
+    <header>
+        <h1>
+            Descuentos
+        </h1>
+        <p> Segundo taller de Javascript </p>
+    </header>
+
+    <section style="display: none;">
+        <h2> Cálcula <strong> descuentos </strong> </h2>
+
+        <form>
+            <div class="c2">
+                <label for="inpurPrice">
+                    Precio
+                </label>
+                <input type="number" id="inpurPrice" name="inpurPrice">
+            </div>
+            
+            <div class="c2">
+                <label for="inputDcto">
+                    Descuento
+                </label>
+                <input type="number" id="inputDcto" name="inputDcto">
+            </div>
+            
+            <div>
+                <button type="button" onclick="calDCTO()">
+                    Cálcular    
+                </button>
+            </div>
+
+            <div id="total" class="result"></div>
+        </form>
+    </section>
+
+    <section>
+        <h2> Cálcula <strong> cupón de descuentos </strong> </h2>
+
+        <form>
+            <div class="c2">
+                <label for="inputPrice">
+                    Precio
+                </label>
+                <input type="number" id="inputPrice" name="inputPrice">
+            </div>
+
+            <div class="c2">
+                <label for="inputCupon">
+                    Código del cupón
+                </label>
+                <select id="inputCupon" name="inputCupon">
+                    <option value="">Seleciona</option>
+                    <option value="JuanDC_es_Batman">JuanDC_es_Batman</option>
+                    <option value="pero_no_le_digas_a_nadie">pero_no_le_digas_a_nadie</option>
+                    <option value="es_un_secreto">es_un_secreto</option>
+                </select>
+            </div>
+                        
+            <div>
+                <button type="button" onclick="calCupon()">
+                    Cálcular    
+                </button>
+            </div>
+
+            <div id="totalCup" class="result"></div>
+        </form>
+    </section>
+    
+    <script src="./figuras.js"></script>
+</body>
+</html>

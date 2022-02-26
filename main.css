@@ -1,0 +1,63 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section{
+    position: absolute;
+    width: 75%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1em;
+    border: solid 2px rgb(15, 77, 194);
+}
+strong{
+    color: rgb(16, 86, 177);
+}
+
+.c2{
+    width: 50%;
+    height: 70px;
+    float: left;
+    position: relative;
+}
+
+.c2 input,
+.c2 select{
+    width: calc(100% - 1em);
+    height: 30px;
+    margin: .5em;
+    border: none;
+    text-align: center;
+    font-size: 1em;
+    background-color: transparent;
+    border-bottom: solid 2px rgb(15, 77, 194);
+}
+.c2 label{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    font-size: .8wm;
+    color: rgb(15, 77, 194);
+}
+
+button{
+    width: calc(100% - 1em);
+    height: 25px;
+    margin: .5em;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: azure;
+    background-color: rgb(15, 77, 194);
+}
+
+.result{
+    width: calc(100% - 1em);
+    font-size: 2em;
+    font-weight: 700;
+    padding: 1em;
+    text-align: center;
+    color: rgb(15, 77, 194);
+}
