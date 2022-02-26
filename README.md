@@ -11,7 +11,7 @@
 
 ## Taller #2: Descuentro
 
-- 1. Cánculo de porcentaje de descuento.
-- 2. Canculo de descuento,
-- 3. Calkculo monto total con descuento.
-- 4. 3 metodos diferentes para codificar resultado.
+- 1. Cálculo de porcentaje de descuento.
+- 2. Cálculo de descuento,
+- 3. Cálkculo monto total con descuento.
+- 4. 3 métodos diferentes para codificar resultado.
