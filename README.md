@@ -13,5 +13,5 @@
 
 - 1. Cálculo de porcentaje de descuento.
 - 2. Cálculo de descuento,
-- 3. Cálkculo monto total con descuento.
+- 3. Cálculo monto total con descuento.
 - 4. 3 métodos diferentes para codificar resultado.
